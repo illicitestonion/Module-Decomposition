@@ -1,4 +1,4 @@
-const server = "https://dwh-quote-backend.hosting.codeyourfuture.io/";
+const server = "https://illicitonion-quote-server-backend.hosting.codeyourfuture.io";
 
 const fetchQuote = async () => {
     const rawResponse = await fetch(server);
