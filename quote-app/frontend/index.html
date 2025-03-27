@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style type="text/css">
+        .error {
+            color: red;
+        }
+        </style>
+    </head>
+    <body>
+        <section id="quote-container"></section>
+        <button id="fetch-quote">Fetch new quote</button>
+        <h3>Add quote</h3>
+        <form>
+            <label>Quote: <input type="text" id="quote" /></label>
+            <label>Author: <input type="text" id="author" /></label>
+            <button id="save-quote">Save quote</button>
+        </form>
+        <section id="feedback"></section>
+        <template id="quote-template">
+            "<span class="quote"></span>" -<span class="author"></span>
+        </template>
+        <script type="module" src="index.mjs"></script>
+    </body>
+</html>
